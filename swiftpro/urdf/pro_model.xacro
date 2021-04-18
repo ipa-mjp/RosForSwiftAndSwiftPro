@@ -289,4 +289,22 @@
 	<origin xyz= "0.05 0 0" rpy = " 0 0 0" />
 </joint>
 
+<!-- gripper model -->
+<joint name="GripperToTcp" type="fixed">
+        <parent link="Link10"/>
+        <child link="Gripper"/>
+        <origin xyz="0.040 0.0 -0.08" rpy="3.1415 1.57 0"/>
+</joint>
+
+<link name="Gripper">
+        <visual>
+	    <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+      		<mesh filename="package://swiftpro/urdf/swift_links/unit_sphere.stl" scale="0.005 0.005 0.005"/>
+    	    </geometry>
+            <material name="">
+                <color rgba="0.3 0.3 0.3 1"/>
+            </material>
+        </visual>
+</link>
 </robot>
