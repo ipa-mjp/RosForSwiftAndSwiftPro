@@ -1,0 +1,34 @@
+controller_list:
+  - name: arm_MPCController
+    ns: arm
+    type: MPCController
+    joints:
+      - elbow_joint
+      - shoulder_lift_joint
+      - shoulder_pan_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+
+  #- name: arm_MPCTrajectoryController
+  #  ns: arm
+  #  type: MPCTrajectoryController
+  #  joints:
+  #    - elbow_joint
+  #    - shoulder_lift_joint
+  #    - shoulder_pan_joint
+  #    - wrist_1_joint
+  #    - wrist_2_joint
+  #    - wrist_3_joint
+
+  #- name: arm_MPCPathController
+  #  ns: arm
+  #  type: MPCPathController
+  #  joints:
+  #    - elbow_joint
+  #    - shoulder_lift_joint
+  #    - shoulder_pan_joint
+  #    - wrist_1_joint
+  #    - wrist_2_joint
+  #    - wrist_3_joint
+
